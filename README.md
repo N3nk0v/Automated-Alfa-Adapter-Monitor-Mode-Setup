@@ -2,11 +2,11 @@
 A simple Bash script to detect an Alfa Wi-Fi adapter interface and enable monitor mode automatically (Linux only).
 
 📌 Overview
-Alfa Monitor Mode Enabler is a lightweight Linux-only Bash utility that:
-Detects the first available wireless interface (commonly your Alfa adapter)
-Checks whether it is already in monitor mode
-If not, toggles the interface down, enables monitor mode, and brings it back up
-This is useful as a quick “prep step” before doing wireless packet capture or Wi-Fi security testing in a lab environment.
+ - Alfa Monitor Mode Enabler is a lightweight Linux-only Bash utility that:
+ - Detects the first available wireless interface (commonly your Alfa adapter)
+ - Checks whether it is already in monitor mode
+ - If not, toggles the interface down, enables monitor mode, and brings it back up
+ - This is useful as a quick “prep step” before doing wireless packet capture or Wi-Fi security testing in a lab environment.
 
 ✅ Key Features
 🔍 Auto-detects the Wi-Fi interface using iw dev
