@@ -9,21 +9,21 @@ A simple Bash script to detect an Alfa Wi-Fi adapter interface and enable monito
  - This is useful as a quick “prep step” before doing wireless packet capture or Wi-Fi security testing in a lab environment.
 
 ✅ Key Features
-🔍 Auto-detects the Wi-Fi interface using iw dev
-🧠 Checks current mode via iwconfig
-⚡ Enables monitor mode automatically
-🛑 Fails cleanly if no interface is detected
-🧰 Minimal and easy to modify
+- 🔍 Auto-detects the Wi-Fi interface using iw dev
+- 🧠 Checks current mode via iwconfig
+- ⚡ Enables monitor mode automatically
+- 🛑 Fails cleanly if no interface is detected
+- 🧰 Minimal and easy to modify
 
 🐧 Supported Platforms
-✅ Linux only
-This script relies on Linux wireless tooling (iw, iwconfig, ifconfig) and will not work on Windows or macOS.
+- ✅ Linux only
+- This script relies on Linux wireless tooling (iw, iwconfig, ifconfig) and will not work on Windows or macOS.
 
 ⚙️ Requirements
-Install the required tools:
-Debian / Ubuntu / Kali
-sudo apt update
-sudo apt install -y wireless-tools iw net-tools
+- Install the required tools:
+- Debian / Ubuntu / Kali
+- sudo apt update
+- sudo apt install -y wireless-tools iw net-tools
 
 Fedora
 sudo dnf install -y wireless-tools iw net-tools
